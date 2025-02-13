@@ -8,7 +8,7 @@
     "skipLibCheck": true,
     "baseUrl": ".", // Ensure baseUrl is set to your project root
     "paths": {
-      "@/*": ["src/*"]  // Define the alias @ to refer to the src folder
+      "@/*": ["./src/*"]
     },
     /* Bundler mode */
     "moduleResolution": "bundler",

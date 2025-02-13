@@ -7,7 +7,7 @@ import path from "path";
 export default defineConfig({
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"), // Map @ to the src folder
+      "@": path.resolve(__dirname, "./src"), // Map @ to the src folder
     },
   },
   plugins: [react(), tailwindcss()],
